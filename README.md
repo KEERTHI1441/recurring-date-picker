@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📅 Recurring Date Picker
 
-## Getting Started
+A modern and responsive Recurring Date Picker built using **Next.js**, **React**, and **Tailwind CSS**, with complete **unit and integration tests** using **Jest** and **React Testing Library**.
 
-First, run the development server:
+## ✨ Features
+
+- Select a date and choose recurrence (Daily, Weekly, Monthly)
+- Professional UI with clean and responsive layout
+- Dark mode support using CSS variables
+- Font customization using `next/font` with Google Fonts (Geist)
+- Fully tested with 100% test case pass rate
+- Built with modular, reusable components
+
+## 🚀 Tech Stack
+
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Jest](https://jestjs.io/) + [React Testing Library](https://testing-library.com/)
+
+## 🧱 Project Structure
+
+```
+recurring-date-picker/
+├── src/
+│   ├── app/
+│   │   ├── layout.js
+│   │   ├── page.js
+│   │   └── globals.css
+│   └── components/
+│       ├── RecurringDatePicker.js
+│       └── RecurrenceSelector.js
+├── __tests__/
+│   ├── RecurrenceSelector.test.js
+│   └── RecurringDatePicker.integration.test.js
+├── __mocks__/
+│   └── next-font.js
+├── public/
+├── package.json
+├── tailwind.config.js
+└── jest.config.js
+```
+
+## 🧪 Testing
+
+All test cases pass successfully:
+
+```bash
+npm run test
+```
+
+- Unit Test: `RecurrenceSelector.test.js`
+- Integration Test: `RecurringDatePicker.integration.test.js`
+
+## 📸 Screenshots
+
+_Add a screenshot here of your Recurring Date Picker UI in light and dark mode._
+
+## 🛠️ How to Run Locally
+
+1. Clone the repo
+
+```bash
+git clone https://github.com/yourusername/recurring-date-picker.git
+cd recurring-date-picker
+```
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. Run the dev server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Run tests
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+npm run test
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔍 Demo
 
-## Learn More
+_Optional: Add a [CodeSandbox](https://codesandbox.io/) or Vercel deployment link._
 
-To learn more about Next.js, take a look at the following resources:
+## 📄 License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the [MIT License](LICENSE).
