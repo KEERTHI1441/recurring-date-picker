@@ -54,7 +54,13 @@ npm run test
 
 ## 📸 Screenshots
 
-_Add a screenshot here of your Recurring Date Picker UI in light and dark mode._
+### Before Date selected
+
+./assets/Initial_Image.PNG
+
+### After date selected
+
+./assets/date_picked_image.PNG
 
 ## 🛠️ How to Run Locally
 
