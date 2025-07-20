@@ -54,13 +54,13 @@ npm run test
 
 ## 📸 Screenshots
 
-### Before Date selected
+### 📅 Before Date Selected
 
-./assets/Initial_Image.PNG
+![Before Date Selected](./assets/Initial_Image.PNG)
 
-### After date selected
+### ✅ After Date Selected
 
-./assets/date_picked_image.PNG
+![After Date Selected](./assets/date_picked_image.PNG)
 
 ## 🛠️ How to Run Locally
 
