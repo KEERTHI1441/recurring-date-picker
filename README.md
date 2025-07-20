@@ -85,5 +85,5 @@ npm run test
 
 ## 🔍 Demo
 
-_Optional: Add a [CodeSandbox](https://codesandbox.io/p/github/KEERTHI1441/recurring-date-picker)
+CodeSandbox link: [CodeSandbox](https://codesandbox.io/p/github/KEERTHI1441/recurring-date-picker)
 
