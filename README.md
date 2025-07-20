@@ -61,7 +61,7 @@ _Add a screenshot here of your Recurring Date Picker UI in light and dark mode._
 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/recurring-date-picker.git
+git clone https://github.com/KEERTHI1441/recurring-date-picker.git
 cd recurring-date-picker
 ```
 
@@ -85,8 +85,5 @@ npm run test
 
 ## 🔍 Demo
 
-_Optional: Add a [CodeSandbox](https://codesandbox.io/) or Vercel deployment link._
+_Optional: Add a [CodeSandbox](https://codesandbox.io/p/github/KEERTHI1441/recurring-date-picker)
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
